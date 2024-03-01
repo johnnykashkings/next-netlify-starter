@@ -1,15 +1,3 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Johnny Kash Casino: Unleash the Lion's Share of Bonuses!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main>
 <h1>Johnny Kash Casino: Unleash the Lion's Share of Bonuses</h1>
 <div id="toc" style="border: 3px solid #4B5320;background: #AAF0D1;padding: 7px;width: 525px; display: table;"><p class="toctitle" style="">Contents</p><ol class="toc_list">
@@ -53,8 +41,3 @@ export default function Home() {
 <p>Whether you're a seasoned gambler or new to the game, at Johnny Kash Casino, your mobile gaming experience is elevated to new heights. The mobile platform is renowned for its security and offers the same extensive suite of services as available online. Sample the best-rated pokies, engage in thrilling table games, try your luck with specialty games, and much more. New members of Johnnie kash kings app can secure a generous welcome package complete with free spins. An extraordinary gaming experience awaits you &ndash; manage your account, connect with support, and explore all the exciting new titles, all from the palm of your hand.</p>
 
       </main>
-
-      <Footer />
-    </div>
-  )
-}
